@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Kanit&family=Play&family=Poppins&display=swap');
+@import url('https://css.gg/css?=|facebook|instagram|twitter|youtube');
+
+
+
+*{
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 10px;
+    text-align: center;
+}
+
+.top-banner{
+    background-color: rgb(0, 255, 179);
+}
+.banner-text{
+    padding: 15px 18px;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul{
+    list-style-type: none;
+    justify-content: end;
+    gap: 40px;
+  
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease-out;
+}
+
+a:hover{
+    color: rgb(0, 255, 179);
+}
+
+.nav{
+    justify-content: space-between;
+}
+
+.button1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    border: 1px solid rgb(0, 255, 179);
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+    transition: 0.5s ease-out;
+}
+.button1:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 255, 179);
+}
+
+.button2{
+    background-color: rgb(0, 255, 179);
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    transition: 0.5s ease-out;
+    border: 1px solid rgb(0, 255, 179);
+}
+.button2:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.button-getstarted{
+    border-radius: 6px;
+    border: 1px solid rgb(0, 255, 179);
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+}
+.button-getstarted:hover{
+    color: rgb(0, 0, 0);
+    background-color:rgb(0, 255, 179);
+}
+
+.companies-header{
+    text-align: center;
+    margin-block: 30px;
+    color: black;
+    font-weight: 800;
+}
+
+.companies-logo img{
+    width: 100px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    margin-left: 4.5vw;
+    flex-wrap: wrap;
+}
+
+.new-arraival .main-side{
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(166, 196, 187);
+    border-radius: 100px;
+    letter-spacing: 5px;
+}
+.new-product1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.product{
+    
+    margin-left: 100px;
+    margin-top: 150px;
+    font-size: 40px;
+}
+
+.add-buy a{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-weight: 800;
+    transition: 0.5s ease-out;
+}
+.add-buy a:hover{
+    padding: 20px 40px;
+    color: rgb(0, 0, 0);
+}
+
+.right-side2{
+    display: flex;
+    margin-top: 80px;
+}
+.product2{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+}
+.left-side2{
+    margin-top: 200px;
+}
+
+.feature-header .button1{
+    padding: 5px 10px;
+    border-color: black;
+}
+.feature-header .button1:hover{
+    color: black;
+    padding-left: 70px;
+    padding-right: 60px;
+}
+.feature-header h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.features {
+    margin-top: 80px;
+}
+
+.learn-more{
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.features-area{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.features-card{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%; 
+    text-align: center;
+}
+.features{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.example-header{
+    margin-top: 150px;
+    flex-direction: column;
+    gap: 20px;
+}
+.example-header a{
+    padding: 5px 10px;
+    border-color: black;
+}
+.example-header h2{
+    font-size: 60px;
+}
+
+.example-header a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+.example-area{
+    margin-top: 50px;
+   justify-content: space-between;
+}
+.example-card{
+    width: 20%;
+    position: relative;
+    min-height: 300px;
+    background: black;
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)),url(Registration.png);
+    background-position: center;
+    background-size: cover;
+}
+.example-card:hover{
+    box-shadow: 0px 0px 20px black;
+}
+
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+    font-weight: 500;
+}
+#search{
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)),url(search.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#audience{
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)),url(audience.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#investors{
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)),url(investor.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.ls{
+    flex-direction: column;
+    gap: 40px;
+    color: white;
+}
+.last-section{
+    margin-top: 100px;
+    padding: 80px 50px 120px;
+    background-color: rgb(21, 21, 88);
+}
+.last-section a{
+    background: transparent;
+    border-color: white;
+}
+
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+footer{
+    background-color: rgba(83, 83, 238, 0.24);
+}
+.footer img{
+    mix-blend-mode: color-burn;
+}
+.footer{
+    padding-block: 80px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.sub-footers{
+    background-color: rgba(35, 35, 83, 0.63);
+    padding: 20px;
+    justify-content: center;
+    gap: 30px;
+}
